@@ -13,6 +13,7 @@ public class FourTest extends Base{
 	public WebDriver driver;
 	@Test
 	public void testFour() throws IOException, InterruptedException {
+		System.out.println("rk code");
 		System.out.println("Test 4");
 		 driver = initializeDriver();
 		driver.get("http://www.tutorialsninja.com/demo/");
